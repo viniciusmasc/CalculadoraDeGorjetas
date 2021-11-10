@@ -35,6 +35,7 @@ body{
 
 .tipsForm{
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 .formInput{
@@ -70,5 +71,6 @@ body{
     height: 50px;
     font-size: 18px;
     color: var(--tertiary-color);
+    
     
 }
