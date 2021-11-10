@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:300,400,700|PT++Mono);
+
+:root{
+    --primary-color:chartreuse;
+    --secondary-color: black;
+    --tertiary-color: white;
+   
+}
+body{
+    background-color: var(--primary-color);
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+#container{
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px grey;
+    border-radius: 20px;
+}
+
+.title{
+   background: var(--primary-color);
+   color: var(--tertiary-color);
+   padding: 20px;
+   text-transform: uppercase;
+   text-align: center;
+   font-size: 18px;
+   font-weight: normal;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+
+.tipsForm{
+    padding-left: 20px;
+}
+
+.formInput{
+    background: var(--tertiary-color);
+    width: 40px;
+    padding: 5px;
+    
+}
+
+.formInput:focus {
+    border: 3px solid var(--primary-color);
+    outline: none;
+}
+
+.formSelect{
+    background: var(--tertiary-color);
+    width: auto;
+    padding: 5px;
+}
+.formSelect:focus {
+    border: 3px solid var(--primary-color);
+    outline: none;
+}
+
+.formSubmit{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: var(--primary-color);
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    color: var(--tertiary-color);
+    
+}
